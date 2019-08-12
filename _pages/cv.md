@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "CV"
+url:"https://github.com/jabrantley/jabrantley.github.io/blob/master/files/JustinBrantley_Modern_CV.pdf"
 permalink: /cv/
 author_profile: true
 redirect_from:
