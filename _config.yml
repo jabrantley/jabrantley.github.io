@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Justin Brantley"
-  avatar           : "Brantley-photo.jpeg"
+  avatar           : "Brantley-Photo.jpeg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Houston, TX"
   employer         : "University of Houston"
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
