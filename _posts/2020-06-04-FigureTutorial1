@@ -1,0 +1,11 @@
+---
+title: 'Making nice figures in MATLAB'
+date: 2020-06-24
+permalink: /posts/2020/06/FigureTutorial1/
+tags:
+  - MATLAB
+  - Figure
+  - Data
+  - EEG
+
+I was recently invited to participate in a workshop for visiting *Research Experience for Undergraduates* ([REU](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5517)) students at the [University of Houston's REU site](http://reu.egr.uh.edu/). Due to the COVID-19 pandemic, the summer internship (still ongoing) is limited to an online research experience. As part of the training, the group of 50 or so students is expected participate in a regularly-schedule workshop covering topics on research practices, signal processing, machine learning, and a handful of more advanced topics in signal processing (with a primary focus being on neural signals, especially EEG). When consdering what topic to present, I tried to think back to some of the essential skills I would have appreciated learning earlier on in my research career. Often times, one of the most challenging things you encounter when you first embark on a research journey is not the actual project itself, but learning how to explain *what* you did and exactly *how* you did it. One important facet of great scientific story telling is the illustrations, or figures, you use to convey the message in your data (or theory). In this first post, I want to summarize some of the main ideas I presented to the group. Instead of starting from scratch, I draw on a lot of other great resources that ouline principles in figure design. In particular, I lean heavily on the paper [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100383) to guide the discussion. 
