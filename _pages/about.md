@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 Welcome to my personal webpage. It's still a work in progress so bear with me...
 
 I am currently a postdoctoral fellow in the [Kording Lab](http://kordinglab.com/) at University of Pennsylvania. I am broadly interested in studying complex natural and functional human movement in healthy individuals and those with movement disorders with the goal of developing better strategies for restoring lost function. In particular, I am interested draw from theories and techniques in movement science, neuroscience, artificial intelligence, to rethink the way we study movement and the brain.  
