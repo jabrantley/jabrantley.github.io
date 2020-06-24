@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "[Justin A Brantley](https://jabrantley.github.io/)"
+  name             : "Justin A Brantley"
   avatar           : "Brantley-Photo.jpeg"
   bio              : "If I'm not here then I'm somewhere else"
   location         : "Philadelphia, PA"
   employer         : "University of Pennyslvania"
   pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/1Dgfh5817PBQ1/bibliography/public/"
   googlescholar    : "https://scholar.google.com/citations?user=6Bj2LDoAAAAJ&hl=en"
-  email            : "justin dot a dot brantley at gmail dot com"
+  email            : "justin.a.brantley@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
