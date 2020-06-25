@@ -13,8 +13,40 @@ I was recently invited to participate in a workshop for visiting *Research Exper
 
 In any normal summer, talented and ambitious REU students gleefuly show up at the University, ready to embark on their summer research experience. They will spend the next 12 weeks in a research lab full of graduate students and postdocs who, under normal circumstances, have yet to discover it is summer break. In some labs, a student will show up and a project is sitting there ready for them to tackle. In other labs, graduate students and postdocs sit down with the student and try to identify a project for the next few months. In all cases, its an incredibly overwhelming experience where you are not only learning about *your* research project, but you are learning about what it means just to *do research*. 
 
-Due to the COVID-19 pandemic, the REU summer internship (still ongoing) is now limited to an online research experience. As part of the training at the [UH REU site](http://reu.egr.uh.edu/), the group of fifty or so students is expected participate in a regularly-scheduled workshop covering topics on research practices, signal processing, machine learning, and a handful of more advanced topics in signal processing (with a primary focus being on neural signals, especially EEG). When consdering what topic I was going to present, I tried to think back to some of the essential skills I would have appreciated learning earlier on in my research career. Often times, one of the most challenging things you encounter when you first embark on a research journey is not the actual project itself, but learning how to explain *what* you did and exactly *how* you did it. One of the most important facets of great scientific story telling is the illustrations, or figures, you use to convey the message in your data (or theory). In this first post, I want to summarize some of the main ideas I presented to the group. Instead of starting from scratch, I draw on a lot of other great resources that ouline principles in figure design. In particular, I lean heavily on the paper [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100383) to guide the discussion, since they already did a lot of the heavy lifting. 
+Due to the COVID-19 pandemic, the REU summer internship (still ongoing as of this post) is now limited to an online research experience. As part of the training at the [UH REU site](http://reu.egr.uh.edu/), the group of fifty or so students is expected participate in a regularly-scheduled workshop covering topics on research practices, signal processing, machine learning, and a handful of more advanced topics in signal processing (with a primary focus being on neural signals, especially EEG). When consdering what topic I was going to present, I tried to think back to some of the essential skills I would have appreciated learning earlier on in my research career. Often times, one of the most challenging things you encounter when you first embark on a research journey is not the actual project itself, but learning how to explain *what* you did and exactly *how* you did it. One of the most important facets of great scientific story telling is the illustrations, or figures, you use to convey the message in your data (or theory). I am definitely not an expert in figure design or scientific visualization. However, I do care about the interpretability and aesthetics of my figures, and I try to put a lot of effort into maximizing both. While I am still young in my career, I consider myself enough of a veteran in research to know the aches and pains that come with the bumpy (but exhilerating!) ride.
 
-## Ten Simple Rules for Better Figures
+I want to point the reader to a nice paper, entitled [Ten Simple Rules for Better Figures](
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100383). Instead of starting from scratch, I tried to draw on a lot of other 
+great resources that ouline principles in figure design. In particular, I lean heavily on the paper [Ten 
+Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100383) to guide the discussion, since they 
+already did a lot of the heavy lifting. Some of the points are perhaps a little less important for the budding scientists who are still new to research 
+altogether, but they are all important to keep in the back of the mind when developing a figure for presenting your work. This paper is not so much about the details of *how* to make figures in any particular environment, but some general principles that guide the process. The MATLAB tutorials in the following posts were designed to illustrate a handful of these points in detail and provide guidance on the *how* aspect of figure making. I have to admit, I am working to transition 100% of my work to python and other open-source data analysis languagues, but when I started my Ph.D., MATLAB was still the go-to for neural data analysis. 
 
-In [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100383), the authors outline ten points that help guide figure design and, hopefully, result in more informative and compelling figures for explaining your work. Some of the points are perhaps a little less important for the budding scientists who are still new to research altogether, so I will spend a little more time on the ones I think are relevant to them. While I am still young in my career, I consider myself enough of a veteran in research to know the aches and pains that come with the bumpy (but exhilerating!) ride. 
+## Summarizing  *Ten Simple Rules for Better Figures*
+
+In [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100383), the authors outline ten points that help guide figure design and, hopefully, result in more informative and compelling figures for explaining your work. Here are the rules:
+
+1. Know Your Audience
+2. Identify Your Message
+3. Adapt the Figure to Support Medium
+4. Captions Are Not Optional
+6. Do Not Trust the Defaults
+6. Use Color Effectively
+7. Do Not Mislead the Reader
+8. Avoid “Chartjunk”
+9. Message Trumps Beauty
+10. Get the Right Tool
+
+I am not going to go through each point individually. Instead, I urge you to read the [paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.100383) and then come back if you want to follow along with the MATLAB examples. We will touch on each in some way in the examples. Before we go on, however, I do at least want to point to some useful resources related to a few of these points.
+
+### Adapt the Figure to Support Medium
+While the paper tends to talk about adapting a figure's content to the medium (and this is a good point), an often overlooked point is adapting the figure to maintain the overall readability. For example, if I export a figure to fit in an article written on standard letter paper, there is no guarantee this will scale properly if I want to put it on a scientific poster or in slides for an oral presentation. We need to make sure we consider that all fonts scale properly and that the resolution remains high enough so that the image is not pixelated when we enlarge it. One invaluable tool I have found for managing this in MATLAB is the `export_fig` function in MATLAB. It operates as a wrapper around the `print` function, but helps to keep your figure exactly as you have it rendered on screen. Check out the [github page](https://github.com/altmany/export_fig) for more information and to download. I'll show an example of how this is used in the following post. 
+
+### Do Not Trust the Defaults
+When I first started trying to find resources on how to "beautify" figures, I discovered the post, [Making Pretty Graphs](https://blogs.mathworks.com/loren/2007/12/11/making-pretty-graphs/), on Loren Shure's blog, [Loren on the Art of MATLAB](https://blogs.mathworks.com/loren/). Through a series of adjustments to the figure, she shows how to take your figures from looking like the one on the left to the one on the right.
+
+
+From drab...               |  to Fab!
+:-------------------------:|:-------------------------:
+![](https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png)  |  ![](https://blogs.mathworks.com/images/loren/118/finalPlot2.png)
+
