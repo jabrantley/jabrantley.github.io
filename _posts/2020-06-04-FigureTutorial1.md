@@ -43,11 +43,13 @@ I am not going to go through each point individually. Instead, I urge you to rea
 While the paper tends to talk about adapting a figure's content to the medium (and this is a good point), an often overlooked point is adapting the figure to maintain the overall readability. For example, if I export a figure to fit in an article written on standard letter paper, there is no guarantee this will scale properly if I want to put it on a scientific poster or in slides for an oral presentation. We need to make sure we consider that all fonts scale properly and that the resolution remains high enough so that the image is not pixelated when we enlarge it. One invaluable tool I have found for managing this in MATLAB is the `export_fig` function. It operates as a wrapper around the `print` function, but helps to keep your figure exactly as you have it rendered on screen. Check out the [github page](https://github.com/altmany/export_fig) for more information and to download. I'll show an example of how this is used in the following post. 
 
 ### Do Not Trust the Defaults
-When I first started trying to find resources on how to "beautify" figures beyond the defaults, I discovered the post, [Making Pretty Graphs](https://blogs.mathworks.com/loren/2007/12/11/making-pretty-graphs/), on Loren Shure's blog, [Loren on the Art of MATLAB](https://blogs.mathworks.com/loren/). Through a series of adjustments to the figure, she shows how to take your figures from drab...to fab!
+When I first started trying to find resources on how to "beautify" figures beyond the defaults, I discovered the post, [Making Pretty Graphs](https://blogs.mathworks.com/loren/2007/12/11/making-pretty-graphs/), on Loren Shure's blog, [Loren on the Art of MATLAB](https://blogs.mathworks.com/loren/). Through a series of adjustments to the figure, she shows how to take your figures from drab...
 
 <p align="center">
   <img src="https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png">
 </p>
+
+to fab!
 
 <p align="center">
   <img src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png"> 
@@ -56,7 +58,7 @@ When I first started trying to find resources on how to "beautify" figures beyon
 
 Now, I know everyone has their own taste when it comes to aesthetics, but there is no doubt that the figure on the left (drab) is just completely uninformative and does a poor job at conveying the message (it saddens me to say that I have seen figures in slides that look like this!). This is what happens when your code looks like this:
 
-```Matlab
+```matlab
 load data.mat
 plot(x,y);
 ```
@@ -64,3 +66,10 @@ plot(x,y);
 The data in this example are completely made-up, but just from looking at the figure on the right (fab!), I can see that whatever was measured, there is a clear relationship between length and mass, and there is more mass variance as the length increaes. Furthermore, I can see that a third order polynomial appears to fit the data, but a fair number of observations fall outside of our 95% confidence interval. Great! Without any context of what was being observed, I can still come up with a decent explanation of what is happening in the data.
 
 ### Use Color Effectively
+Let me quote the article, [Why We Use Bad Color Maps and What You Can Do About It](https://www.osti.gov/servlets/purl/1338147), written by Kenneth Moreland at Sandia National Labs in Albuquerque, NM (my beloved hometown!) to give you a little flavor of what the rest of the section on color is going to taste like!
+
+<p align="center">
+  <img src="\images\Blog_20200604_FigureMaking1\RainbowColorMap"> 
+</p>
+
+
