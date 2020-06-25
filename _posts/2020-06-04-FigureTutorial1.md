@@ -49,24 +49,24 @@ When I first started trying to find resources on how to "beautify" figures beyon
   <img src="https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png">
 </p>
 
-to fab!
+...to *fab*!
 
 <p align="center">
   <img src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png"> 
 </p>
 
 
-Now, I know everyone has their own taste when it comes to aesthetics, but there is no doubt that the figure on the left (drab) is just completely uninformative and does a poor job at conveying the message (it saddens me to say that I have seen figures in slides that look like this!). This is what happens when your code looks like this:
+Now, I know everyone has their own taste when it comes to aesthetics, but there is no doubt that the figure on the top (drab) is just completely uninformative and does a poor job at conveying the message (it saddens me to say that I have seen figures in slides that look like this!). This is what happens when the extent of your code looks like this:
 
-```matlab
+```MATLAB
 load data.mat
 plot(x,y);
 ```
 
-The data in this example are completely made-up, but just from looking at the figure on the right (fab!), I can see that whatever was measured, there is a clear relationship between length and mass, and there is more mass variance as the length increaes. Furthermore, I can see that a third order polynomial appears to fit the data, but a fair number of observations fall outside of our 95% confidence interval. Great! Without any context of what was being observed, I can still come up with a decent explanation of what is happening in the data.
+The data in this example are completely made-up, but just from looking at the figure on the bottom (*fab!*), I can see that whatever was measured, there is a clear relationship between length and mass, and there is more variance in the mass as the length increaes. Furthermore, I can see that a third order polynomial appears to fit the data, but a fair number of observations fall outside of our 95% confidence interval. Great! Without any context of what was being observed, I can still come up with a decent explanation of what is happening in the data. The examples in the following tutorials will dive much deeper into what we can do to substantially improve on the defaults. 
 
 ### Use Color Effectively
-Let me quote the article, [Why We Use Bad Color Maps and What You Can Do About It](https://www.osti.gov/servlets/purl/1338147), written by Kenneth Moreland at Sandia National Labs in Albuquerque, NM (my beloved hometown!) to give you a little flavor of what the rest of the section on color is going to taste like!
+Let me quote the article, [Why We Use Bad Color Maps and What You Can Do About It](https://www.osti.gov/servlets/purl/1338147), written by Kenneth Moreland at Sandia National Labs in Albuquerque, NM (my beloved hometown!) to give you a little flavor of what the rest of the section on color is going to be like!
 
 <p align="center">
   <img src="/images/Blog_20200604_FigureMaking1/RainbowColorMap.png" width="500"> 
