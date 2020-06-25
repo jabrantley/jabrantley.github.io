@@ -45,5 +45,5 @@ While the paper tends to talk about adapting a figure's content to the medium (a
 ### Do Not Trust the Defaults
 When I first started trying to find resources on how to "beautify" figures, I discovered the post, [Making Pretty Graphs](https://blogs.mathworks.com/loren/2007/12/11/making-pretty-graphs/), on Loren Shure's blog, [Loren on the Art of MATLAB](https://blogs.mathworks.com/loren/). Through a series of adjustments to the figure, she shows how to take your figures from looking like the one on the left to the one on the right.
 
-![](https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png)  ![](https://blogs.mathworks.com/images/loren/118/finalPlot2.png)
+| ![](https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png)| ![](https://blogs.mathworks.com/images/loren/118/finalPlot2.png) |
 
