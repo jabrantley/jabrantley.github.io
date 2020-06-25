@@ -30,7 +30,7 @@ In [Ten Simple Rules for Better Figures](https://journals.plos.org/ploscompbiol/
 2. Identify Your Message
 3. Adapt the Figure to Support Medium
 4. Captions Are Not Optional
-6. Do Not Trust the Defaults
+5. Do Not Trust the Defaults
 6. Use Color Effectively
 7. Do Not Mislead the Reader
 8. Avoid “Chartjunk”
@@ -43,12 +43,13 @@ I am not going to go through each point individually. Instead, I urge you to rea
 While the paper tends to talk about adapting a figure's content to the medium (and this is a good point), an often overlooked point is adapting the figure to maintain the overall readability. For example, if I export a figure to fit in an article written on standard letter paper, there is no guarantee this will scale properly if I want to put it on a scientific poster or in slides for an oral presentation. We need to make sure we consider that all fonts scale properly and that the resolution remains high enough so that the image is not pixelated when we enlarge it. One invaluable tool I have found for managing this in MATLAB is the `export_fig` function. It operates as a wrapper around the `print` function, but helps to keep your figure exactly as you have it rendered on screen. Check out the [github page](https://github.com/altmany/export_fig) for more information and to download. I'll show an example of how this is used in the following post. 
 
 ### Do Not Trust the Defaults
-When I first started trying to find resources on how to "beautify" figures, I discovered the post, [Making Pretty Graphs](https://blogs.mathworks.com/loren/2007/12/11/making-pretty-graphs/), on Loren Shure's blog, [Loren on the Art of MATLAB](https://blogs.mathworks.com/loren/). Through a series of adjustments to the figure, she shows how to take your figures from looking like the one on the left to the one on the right.
-
- ![](https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png)
- ![](https://blogs.mathworks.com/images/loren/118/finalPlot2.png) 
+When I first started trying to find resources on how to "beautify" figures beyond the defaults, I discovered the post, [Making Pretty Graphs](https://blogs.mathworks.com/loren/2007/12/11/making-pretty-graphs/), on Loren Shure's blog, [Loren on the Art of MATLAB](https://blogs.mathworks.com/loren/). Through a series of adjustments to the figure, she shows how to take your figures from drab...to fab!
 
 <p float="middle">
-  <img src="https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png" width="500" />
-  <img src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png" width="500" /> 
+  <img src="https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png" width="400" />
+  <img src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png" width="400" /> 
 </p>
+
+Now, I know everyone has their own taste when it comes to aesthetics, but there is no doubt that the figure on the left (drab) is just completely uninformative and does a poor job at conveying the message (it saddens me to say that I have seen figures in slides that look like this!). The data in this example are completely made-up, but just from looking at the figure on the right (fab!), I can see that whatever was measured, there is a clear relationship between length and mass, and there is more mass variance as the length increaes. Furthermore, I can see that a third order polynomial appears to fit the data, but a fair number of observations fall outside of our 95% confidence interval. Great! Without any context of what was being observed, I can still come up with a decent explanation of what is happening in the data.
+
+### Use Color Effectively
