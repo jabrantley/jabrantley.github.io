@@ -63,6 +63,13 @@ load data.mat
 plot(x,y);
 ```
 
+~~~
+load data.mat
+plot(x,y);
+~~~
+{: .language-matlab}
+
+
 The data in this example are completely made-up, but just from looking at the figure on the bottom (*fab!*), I can see that whatever was measured, there is a clear relationship between length and mass, and there is more variance in the mass as the length increaes. Furthermore, I can see that a third order polynomial appears to fit the data, but a fair number of observations fall outside of our 95% confidence interval. Great! Without any context of what was being observed, I can still come up with a decent explanation of what is happening in the data. The examples in the following tutorials will dive much deeper into what we can do to substantially improve on the defaults. 
 
 ### Use Color Effectively
