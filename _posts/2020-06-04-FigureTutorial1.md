@@ -48,7 +48,7 @@ When I first started trying to find resources on how to "beautify" figures, I di
  ![](https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png)
  ![](https://blogs.mathworks.com/images/loren/118/finalPlot2.png) 
 
-<p float="left">
-  <img src="https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png" width="150" />
-  <img src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png" width="150" /> 
+<p float="middle">
+  <img src="https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png" width="500" />
+  <img src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png" width="500" /> 
 </p>
