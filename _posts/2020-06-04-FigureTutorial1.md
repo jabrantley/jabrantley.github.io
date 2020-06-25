@@ -69,7 +69,7 @@ The data in this example are completely made-up, but just from looking at the fi
 Let me quote the article, [Why We Use Bad Color Maps and What You Can Do About It](https://www.osti.gov/servlets/purl/1338147), written by Kenneth Moreland at Sandia National Labs in Albuquerque, NM (my beloved hometown!) to give you a little flavor of what the rest of the section on color is going to taste like!
 
 <p align="center">
-  <img src="/images/Blog_20200604_FigureMaking1/RainbowColorMap.png"> 
+  <img src="/images/Blog_20200604_FigureMaking1/RainbowColorMap.png" width="500"> 
 </p>
 
 
