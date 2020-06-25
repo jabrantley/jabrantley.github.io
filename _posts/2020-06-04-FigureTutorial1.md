@@ -50,6 +50,11 @@ When I first started trying to find resources on how to "beautify" figures beyon
   <img src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png" width="400" /> 
 </p>
 
+
+<img align="left" src="https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png" width="300" />
+<img align="left" src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png" width="300" /> 
+
+
 Now, I know everyone has their own taste when it comes to aesthetics, but there is no doubt that the figure on the left (drab) is just completely uninformative and does a poor job at conveying the message (it saddens me to say that I have seen figures in slides that look like this!). The data in this example are completely made-up, but just from looking at the figure on the right (fab!), I can see that whatever was measured, there is a clear relationship between length and mass, and there is more mass variance as the length increaes. Furthermore, I can see that a third order polynomial appears to fit the data, but a fair number of observations fall outside of our 95% confidence interval. Great! Without any context of what was being observed, I can still come up with a decent explanation of what is happening in the data.
 
 ### Use Color Effectively
