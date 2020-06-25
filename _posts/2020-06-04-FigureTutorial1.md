@@ -46,8 +46,8 @@ While the paper tends to talk about adapting a figure's content to the medium (a
 When I first started trying to find resources on how to "beautify" figures beyond the defaults, I discovered the post, [Making Pretty Graphs](https://blogs.mathworks.com/loren/2007/12/11/making-pretty-graphs/), on Loren Shure's blog, [Loren on the Art of MATLAB](https://blogs.mathworks.com/loren/). Through a series of adjustments to the figure, she shows how to take your figures from drab...to fab!
 
 <p float="center">
-  <img src="https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png" width="300" />
-  <img src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png" width="400" /> 
+  <img src="https://blogs.mathworks.com/images/loren/118/pubQualityGraphics_01.png" width="400" hspace="20">
+  <img src="https://blogs.mathworks.com/images/loren/118/finalPlot2.png" width="400"> 
 </p>
 
 Now, I know everyone has their own taste when it comes to aesthetics, but there is no doubt that the figure on the left (drab) is just completely uninformative and does a poor job at conveying the message (it saddens me to say that I have seen figures in slides that look like this!). The data in this example are completely made-up, but just from looking at the figure on the right (fab!), I can see that whatever was measured, there is a clear relationship between length and mass, and there is more mass variance as the length increaes. Furthermore, I can see that a third order polynomial appears to fit the data, but a fair number of observations fall outside of our 95% confidence interval. Great! Without any context of what was being observed, I can still come up with a decent explanation of what is happening in the data.
